@@ -6,6 +6,7 @@ import {
   
 } from "react-router-dom";
 import Comepounder from "./pages/Comepounder";
+import AboutUs from "./pages/AboutUs";
 
 import "./assets/css/bootstrap/scss/bootstrap.scss";
 
@@ -19,7 +20,7 @@ function App() {
        
        
         <Route path="/" element={<Comepounder />} />
-        
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </Router>
   );
