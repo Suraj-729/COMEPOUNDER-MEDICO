@@ -33,9 +33,9 @@ const Header = () => {
                 >
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link" href="discover.html">
+                      <Link className="nav-link" to='/discover' >
                         Discover
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/avail">
@@ -48,9 +48,9 @@ const Header = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="resources.html">
+                      <Link className="nav-link" to="/resources">
                         Resources
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/aboutus">
