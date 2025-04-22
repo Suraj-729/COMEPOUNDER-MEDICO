@@ -7,6 +7,12 @@ import InnerBanner from "../components/AvailPage/InnerBanner"; // Adjust the pat
 import Search from "../components/AvailPage/SerachPage";
 import Caregiver from "../components/MedicalServices/Caregiver";
 import Equipments from "../components/MedicalEquipment/Equipments";
+import AccomodationPage from "../components/Accomodation/AcomodationPage";
+import FoodPage from "../components/PrescribedFood/PrescribedFood";
+import BloodBankPage from "../components/AvailPage/BloodBank"; // Adjust the path as needed
+import DiagnosticsPage from "../components/AvailPage/Diagnostics"; // Adjust the path as needed
+import RegainIndependencePage from "../components/AvailPage/RegainIndependence"; // Adjust the path as needed
+import MedsOnTimePage from "../components/AvailPage/MedonTime"; // Adjust the path as needed
 const AvailPage = () => {
     return (
          <div>
@@ -15,6 +21,12 @@ const AvailPage = () => {
                 <Search />
                 <Caregiver />
                 <Equipments />
+                <AccomodationPage />
+                <FoodPage />
+                <BloodBankPage />
+                <DiagnosticsPage />
+                <RegainIndependencePage />
+                <MedsOnTimePage />
              <Footer />
          </div>
     );
